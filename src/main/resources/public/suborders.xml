@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" xsi:noNamespaceSchemaLocation="suborders.xsd"?>
+
+<HostFood>
+	<food type = "1">
+		<name>Lahma Bi Ajeen</name>
+		<price> $3.00</price>
+	</food>
+	<food type = "1">
+		<name>Margherita</name>
+		<price> $6.00</price>
+	</food>
+	<food type = "1">
+		<name>Calzone</name>
+		<price> $7.00</price>
+	</food>
+	<food type = "1">
+		<name>Stromboli</name>
+		<price> $9.00</price>
+	</food>
+</HostFood>

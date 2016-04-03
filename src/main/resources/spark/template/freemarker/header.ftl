@@ -1,5 +1,10 @@
-<title>Getting Started</title>
-<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+	<title>Order Your Food</title>
+		
+
+		<link href="stylesheets/bootstrap.css" rel="stylesheet"/>
+		<link href="stylesheets/style1.css" rel="stylesheet" type="text/css" media="all" />
+
+		<meta name="RUiNan device" content="width=device-width, initial-scale=1"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+	<!-- head scripts-->

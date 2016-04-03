@@ -7,10 +7,20 @@
 
 		<meta name="RUiNan device" content="width=device-width, initial-scale=1"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		
+
+		<script>
+		$(function () {
+							 $.ajax({
+									 url: "/api/about",
+									 success: function (result) {
+											 $("#current-time").html(result);
+
+									 }});
+					 });
+		</script>
 	<!-- head scripts-->
-		
-	
+
+
 	</head>
 
 	<body>
@@ -22,44 +32,44 @@
 						</div>
 						<div class="login-section">
 							<ul>
-								<li><a href="login.html">Login</a>  </li> 
+								<li><a href="login.html">Login</a>  </li>
 								<li><a href="register.html">Register</a> </li>
 							</ul>
 						</div>
-						
-						
-						
+
+
+
 				</div>
 			</div>
 		</div>
 		<!-- //header -->
-				
+
 		<div  id="top" class="">
 			<ul class="rslides" id="slider3">
 				<li>
 					<div class="banner one">
-						
+
 							<div class="navigation text-center">
-								
+
 									<ul class="nav1">
 										<li><a href="index.html">HOME</a></li>
-										
+
 										<li><a class="active" href="menu.html">MENU</a></li>
-										
-										
+
+
 										<li><a href="contact.html">DELIVER</a></li>
-										
-										
+
+
 									</ul>
-								
+
 
 							</div>
-							
-							
-						
+
+
+
 					</div>
-					
-				</li>				
+
+				</li>
 			</ul>
 		</div>
 		<div class="menu">
@@ -86,7 +96,9 @@
 					</div>
 					<div class="order-top">
 						<ul>
-							<li class="im-g"><a href="#"><img src="images/k2.jpg" class="img-responsive" alt=""></a></li>
+							<li class="im-g"><a href="#">
+								<img src="images/k2.jpg" class="img-responsive" alt=""></a>
+							</li>
 							<li class="data">
 								<h3>$6</h3>
 								<h4>Delicious Carrot Bread</h4>
@@ -112,7 +124,7 @@
 						</ul>
 						<div class="clearfix"></div>
 					</div>
-					
+
 					<div class="order-top">
 						<ul>
 							<li class="im-g"><a href="#"><img src="images/k4.jpg" class="img-responsive" alt=""></a></li>
@@ -155,7 +167,7 @@
 						</ul>
 						<div class="clearfix"></div>
 					</div>
-						
+
 					<div class="order-top">
 						<ul>
 						<li class="im-g"><a href="#"><img src="images/k7.jpg" class="img-responsive" alt=""></a></li>
@@ -173,5 +185,5 @@
 				</div>
 			</div>
 		</div>
-	</body>	
+	</body>
 </html>
